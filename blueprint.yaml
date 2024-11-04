@@ -1,0 +1,23 @@
+id: particle/blueprint-tracker-gpio
+category: solution
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-tracker-gpio
+name: blueprint-tracker-gpio
+shortDescription: Adding a GPIO expander to the Tracker One
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations:
+  - qcom-aware
+hardwareDependencies:
+  - name: Tracker One
+    link: https://www.particle.io/tracker-one/
+  - name: Particle T-SoM Module
+    link: https://www.particle.io/tracker-som/
+description: |
+  - Expanding the Tracker One using the M8 connector.
+  - Interfacing with 5V I2C devices (optional).
+  - Adding a MCP23008 to add 8 GPIO. Can be configured as 3.3V or 5V GPIO at board assembly time.
+
