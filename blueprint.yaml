@@ -1,5 +1,5 @@
 id: particle/blueprint-tracker-gpio
-category: solution
+category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-tracker-gpio
 name: blueprint-tracker-gpio
