@@ -1,22 +1,31 @@
 id: particle/blueprint-tracker-gpio
-category: tutorial
-icon: particle.png
+slug: particle-blueprint-tracker-gpio
+type: tutorial
+category: "Sensors and data collection"
+expertiseLevel: ""
+tags: ["sensors", "tracker"]
+icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-gpio
 name: "Tracker GPIO expander"
 shortDescription: Adding a GPIO expander to the Tracker One for flexible GPIO applications
 version: 1.0.0
 models: []
-language:
-  - C++
+language: ["C++"]
 cloudServices: []
 integrations: []
-hardwareDependencies:
+supportedDevices:
   - name: Tracker One
     link: https://www.particle.io/tracker-one/
-    tags: [ "Tracker One" ]
-  - name: Particle T-SoM Module
+  - name: T-SoM
     link: https://www.particle.io/tracker-som/
-    tags: [ "T-SoM" ]
+hardwareDependencies:
+  - name: Supported device
+introduction: |
+  This application note illustrates several hardware and software techniques:
+  - Expanding the Tracker One using the M8 connector.
+  - Interfacing with 5V I2C devices (optional).
+  - Adding a MCP23008 to add 8 GPIO. Can be configured as 3.3V or 5V GPIO at board assembly time.
+
 description: |
   This project demonstrates how to expand the Tracker One’s GPIO capabilities using the M8 connector and an MCP23008 I2C GPIO expander. By incorporating the MCP23008, users can gain eight additional GPIO pins, each configurable as input, input pull-up, or output. This setup also provides flexibility for operating at either 3.3V or 5V, depending on assembly configuration.
 
@@ -25,3 +34,5 @@ description: |
   - Expanding the Tracker One using the M8 connector.
   - Interfacing with 5V I2C devices (optional).
   - Adding a MCP23008 to add 8 GPIO. Can be configured as 3.3V or 5V GPIO at board assembly time.
+
+additionalResources:
