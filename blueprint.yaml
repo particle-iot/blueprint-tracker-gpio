@@ -1,7 +1,7 @@
 slug: particle-blueprint-tracker-gpio
 type: Tutorial
 category: "Sensors and data collection"
-expertiseLevel: "Beginner"
+expertiseLevel: "Expert"
 tags: ["Tracker", "Sensors", "Industrial", "Ditial inputs", "I2C"]
 icon: assets/tracker-gpio-expander.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-gpio
@@ -19,6 +19,8 @@ supportedDevices:
     link: https://www.particle.io/tracker-som/
 hardwareDependencies:
   - name: Supported device
+  - name: M8 cable
+  - name: Board with MCP23008 GPIO expander
 introduction: |
   This application note illustrates several hardware and software techniques:
   - Expanding the Tracker One using the M8 connector.
