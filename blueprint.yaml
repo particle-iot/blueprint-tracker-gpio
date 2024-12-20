@@ -1,7 +1,7 @@
 slug: particle-blueprint-tracker-gpio
 type: Tutorial
 category: "Sensors and data collection"
-expertiseLevel: "Expert"
+expertiseLevel: "Intermediate"
 tags: ["Tracker", "Sensors", "Industrial", "Ditial inputs", "I2C"]
 icon: assets/tracker-gpio-expander.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-gpio
