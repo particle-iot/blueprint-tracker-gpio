@@ -6,7 +6,7 @@ tags: ["Tracker", "Sensors", "Industrial", "Ditial inputs", "I2C"]
 icon: assets/tracker-gpio-expander.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-gpio
 name: "Tracker GPIO expander"
-shortDescription: Adding a GPIO expander to the Tracker One for flexible GPIO applications
+shortDescription: "Adding a GPIO expander to the Tracker One for flexible GPIO applications."
 version: 1.0.0
 models: []
 language: ["C++"]
