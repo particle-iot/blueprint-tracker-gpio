@@ -1,8 +1,8 @@
 slug: particle-blueprint-tracker-gpio
 type: Tutorial
-category: "Sensors and data collection"
+category: "Tracker projects"
 expertiseLevel: "Intermediate"
-tags: ["Tracker", "Sensors", "Industrial", "Ditial inputs", "I2C"]
+tags: ["Tracker", "GPIO", "I2C", "Industrial"]
 icon: assets/tracker-gpio-expander.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-gpio
 name: "Tracker GPIO expander"
